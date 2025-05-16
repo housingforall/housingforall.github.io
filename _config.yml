@@ -13,9 +13,9 @@ title                    : "Bo Li | Urban Studies Researcher"
 title_separator          : "-"
 name                     : &name "Bo Li"
 description              : &description "Housing researcher focusing on metropolitan China and international comparative studies"
-url                      : https://boli.github.io # 请替换为你的实际GitHub用户名
+url                      : "https://housingforall.github.io" # 请替换为你的实际GitHub用户名
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "boli/boli.github.io" # 请替换为你的实际GitHub用户名
+repository               : "housingforall/housingforall.github.io" # 请替换为你的实际GitHub用户名
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
