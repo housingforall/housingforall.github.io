@@ -22,24 +22,24 @@ repository               : "housingforall/housingforall.github.io" # 请替换�
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "github_portfolio.jpg"
   name             : "Bo Li"
   pronouns         : # example: "she/her"  
   bio              : "Urban Studies Researcher specialized in Housing Policy, Rental Markets, and Comparative Housing Analysis"
   location         : "Berlin, Germany"
   employer         : "Free University of Berlin"
-  uri              : # URL
+  uri              : https://www.jfki.fu-berlin.de/en/faculty/sociology/persons/Li_Bo/index.html
   email            : "bo.li@fu-berlin.de" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL
-  googlescholar    : # 请添加你的Google Scholar链接，如有
+  googlescholar    : https://scholar.google.com/citations?user=KBq6uBoAAAAJ&hl=en
   impactstory      : # URL
   orcid            : # 请添加你的ORCID链接，如有
   semantic         : # URL
   pubmed           : # 
-  researchgate     : # 请添加你的ResearchGate链接，如有
+  researchgate     : https://www.researchgate.net/profile/Bo-Li-110?ev=hdr_xprf
   scopus           : # URL
 
   # Repositories and software development
@@ -60,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # 请添加你的LinkedIn用户名，如有
+  linkedin         : "bo-li-5513ab22b"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
