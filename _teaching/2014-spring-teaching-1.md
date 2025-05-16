@@ -1,20 +1,36 @@
 ---
-title: "Teaching experience 1"
+title: "Housing in Urban Sociology and Urban Planning"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Graduate course"
+permalink: /teaching/2025-housing-urban-sociology
+venue: "Free University of Berlin, JFK Institute"
+date: 2025-09-01
+location: "Berlin, Germany"
+end_date: 2026-03-01
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+## Course Overview
+This course examines housing issues from both urban sociological and urban planning perspectives, focusing on contemporary housing challenges in global metropolitan areas.
 
-Heading 1
-======
+## Course Content
+* Housing affordability and accessibility in global cities
+* Rental housing dynamics and private rented sector development
+* Housing financialization and its socio-spatial impacts
+* Housing policy comparison across different institutional contexts
+* Emerging housing trends and research frontiers
 
-Heading 2
-======
+## Learning Objectives
+* Understand key housing theories from urban sociology and planning perspectives
+* Analyze housing markets across different urban contexts
+* Evaluate housing policies and their effectiveness in different institutional settings
+* Develop research skills for housing studies
 
-Heading 3
-======
+## Assessment
+* [评估方式1]
+* [评估方式2]
+* [评估方式3]
+
+## Required Readings
+* [必读文献1]
+* [必读文献2]
+* [必读文献3]
