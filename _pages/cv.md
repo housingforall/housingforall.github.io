@@ -25,12 +25,12 @@ Research Experience
 * 2023.05-2024.02: **Postdoc**
   * Department of Management in the Built Environment, Faculty of Architecture and Built Environment
   * Delft University of Technology
-  * With Prof. Peter Boelhouwer
+  * With Prof. Peter Boelhouwer, Harry van der Heijden, Sylvia J.T. Jansen
 
 * 2018.09-2023.04: **PhD Candidate**
   * Department of Management in the Built Environment, Faculty of Architecture and Built Environment
   * Delft University of Technology
-  * With Prof. Peter Boelhouwer
+  * With Prof. Peter Boelhouwer, Harry van der Heijden, Sylvia J.T. Jansen
 
 Research Grants
 ======
