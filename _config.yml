@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Bo Li | Urban Studies Researcher"
+title                    : "Bo Li | Urban Geographer"
 title_separator          : "-"
 name                     : &name "Bo Li"
-description              : &description "Housing researcher focusing on metropolitan China and international comparative studies"
+description              : &description "Urban Geographer focusing on rental housing markets and housing financialization."
 url                      : "https://housingforall.github.io" # 请替换为你的实际GitHub用户名
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "housingforall/housingforall.github.io" # 请替换为你的实际GitHub用户名
