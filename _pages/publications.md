@@ -25,10 +25,14 @@ author_profile: true
 ### 2021
 * **Li, B.,** Jin, C.\*, Jansen, S. J., van der Heijden, H., & Boelhouwer, P. (2021). Residential Satisfaction of Private Tenants in China\'s Superstar Cities: The Case of Shenzhen, China. *Cities*. [DOI](https://doi.org/10.1016/j.cities.2021.103355)
 
+## Public Outreach
+
+* Li, B., Kohl, S. Why Do Most Germans Rent? — Insights from a "Rental-Dominant" Country. (为何大部分德国人租房？——“以租为主”国家的经验与启示). In Chinese. [HTML](https://housingforall.github.io/files/公众号文章.html)
+  
 ## Work In Progress
 
 * **Li, B.** (2025). The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China's Real Estate Downturn. *Working Paper*. [PDF](https://housingforall.github.io/files/li-2025-fiscal-property-nexus.pdf)
-* 
+  
 * **Li, B.,** Aalbers, M., Kohl, S., & Chen, J. (2024). Navigating Overaccumulation: The Financialization of Social Rented Housing in China. Status: *Revise & Resubmit* at Environment and Planning A.
 
 * Kohl, S., **Li, B.\*,** & Cui, C. (2024). Housing Segregation in Chinese Major Cities: A K-Nearest Neighbor Analysis of Longitudinal Big Data. *Revise & Resubmit* at Computers, Environment and Urban Systems.
