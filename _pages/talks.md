@@ -27,7 +27,7 @@ How do the management practices of landlords influence renters' housing experien
 
 **June, 2022**  
 Improving residential satisfaction of private tenants in megacities: lessons for policy makers  
-*Invited lecture by the Taoyuan Municipal Government's Residential Development Office, Taiwan*
+*Invited lecture by the Taiwan Taoyuan Municipal Government's Residential Development Office, Online*
 
 **March, 2022**  
 Understanding the management practices of private landlords in China  
