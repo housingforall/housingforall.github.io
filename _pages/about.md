@@ -8,32 +8,20 @@ redirect_from:
   - /about.html
 ---
 
-# Bo Li
+Welcome to my academic homepage!
 
-I'm an Urban Geographer exploring the dynamics of rental housing markets and housing financialization.
+I am an Assistant Professor in the JFK Institute at Free University Berlin, having received my Ph.D. in Urban Studies from Delft University of Technology.
 
-My research bridges multiple scales: from the micro-level, where I examine tenants' well-being and residential choices, to the macro-level, where I analyze how institutional investment in rental markets shapes urban inequality.
+My research interests span the rental housing sector, housing financialization, urban sociology, and migration studies. I investigate these topics across multiple scales—from examining tenants' well-being and residential choices to analyzing how institutional investment in rental markets shapes urban inequality.
 
-Currently, I lead the FINRENT project as an NWO Rubicon Fellow, studying rental housing financialization across advanced and emerging economies—investigating its historical development, institutional strategies, and impacts on housing affordability and tenant well-being.
+Currently, I lead the FINRENT project as an NWO Rubicon Fellow and have been awarded a Marie Skłodowska-Curie Fellowship for my comparative study of foreign real estate investment across 50 countries. I also serve as Associate Editor for the Journal of Urban Management and Humanities & Social Sciences Communications.
 
-I'm also fortunate to have received a Marie Skłodowska-Curie Fellowship from the EU Commission for my project "Foreign Real Estate Investment, Housing Affordability, and Regulations: A Comparative Political Economy Analysis of 50 Countries."
+**Contact**
 
-Through a mix of qualitative and quantitative approaches, including longitudinal big data and GIS analysis, I hope my research can contribute to evidence-based policy recommendations for regulating institutional investment in rental housing markets.
+Bo Li
 
-## Research Interests
+Free University Berlin, Sociology/John-F.-Kennedy Institute
 
-My research explores several interconnected areas in urban studies and housing:
+Lansstr. 7-9, 14195 Berlin
 
-- **Private Rental Sector Development** in metropolitan areas, with a focus on China's superstar cities
-- **Housing Financialization** and its socio-spatial impacts
-- **Comparative Housing Policy** across different institutional contexts
-- **Urban Sociology** and housing inequalities
-- **Rental Housing Market Dynamics** and landlord-tenant relationships
-- 
-## Education
 
-- **Ph.D. in Urban Studies**, Delft University of Technology, the Netherlands (2023)
-- **M.S. in Architecture and Civil Engineering**, Chongqing University, China (2018)
-- **B.S. in Construction Cost Management**, Sichuan University, China (2015)
-
-Feel free to [contact me](mailto:bo.li@fu-berlin.de) if you would like to discuss research collaborations or have questions about my work.
