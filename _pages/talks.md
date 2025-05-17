@@ -7,8 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-## Recent Presentations
-
 **August, 2024**  
 Housing Segregation Trends in China: A K-Nearest Neighbor Analysis of Online Ads  
 *European Network for Housing Research (ENHR) conference, Delft, Netherlands*
