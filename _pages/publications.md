@@ -16,7 +16,7 @@ author_profile: true
 
 * Wen, J., **Li, B.\*,** Jansen, S. J., van der Heijden, H. & Boelhouwer, P. (2024). Leaving Intention of Recent Migrants across Urban Hierarchies: The Role of Housing, Employment and Amenities. *Revise & Resubmit* at Cities.
 
-* Liu, Z., Qian, Q., **Li, B.\*,** & Visscher, H. (2024). Dutch Householders\' Intentions to Adopt Shallow Geothermal Systems for Energy Transition of Existing Buildings: A Theory of Planned Behavior Approach. Status: *Revise & Resubmit* at Energy & Buildings.
+* Liu, Z., Qian, Q., **Li, B.\*,** Jin, C. & Visscher, H. (2024). Dutch Householders\' Intentions to Adopt Shallow Geothermal Systems for Energy Transition of Existing Buildings: A Theory of Planned Behavior Approach. Status: *Revise & Resubmit* at Energy & Buildings.
   
 ## Selected Publications
 
