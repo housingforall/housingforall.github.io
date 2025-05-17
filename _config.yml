@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Bo Li | Urban Geographer"
+title                    : "Bo Li"
 title_separator          : "-"
 name                     : &name "Bo Li"
 description              : &description "Urban Geographer focusing on rental housing markets and housing financialization."
