@@ -14,7 +14,7 @@ I am an Assistant Professor in the JFK Institute at Free University Berlin, havi
 
 My research interests span the rental housing sector, housing financialization, urban sociology, and migration studies. I investigate these topics across multiple scales—from examining tenants' well-being and residential choices to analyzing how institutional investment in rental markets shapes urban inequality.
 
-Currently, I lead the FINRENT project as an NWO Rubicon Fellow and have been awarded a Marie Skłodowska-Curie Fellowship for my comparative study of foreign real estate investment across 50 countries. I also serve as Associate Editor for the Journal of Urban Management and Humanities & Social Sciences Communications.
+Currently, I lead the FINRENT project as an NWO Rubicon Fellow and have been awarded a Marie Skłodowska-Curie Fellowship for my comparative study of foreign real estate investment across 50 countries. I also serve as Associate Editor for the *Journal of Urban Management* and *Humanities & Social Sciences Communications*.
 
 **Contact**
 
