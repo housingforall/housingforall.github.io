@@ -16,12 +16,6 @@ My research interests span the rental housing sector, housing financialization, 
 
 Currently, I lead the FINRENT project as an NWO Rubicon Fellow and have been awarded a Marie Skłodowska-Curie Fellowship for my comparative study of foreign real estate investment across 50 countries. I also serve as Associate Editor for the *Journal of Urban Management* and *Humanities & Social Sciences Communications*.
 
-**Contact**
 
-Bo Li
-
-Free University Berlin, Sociology/John-F.-Kennedy Institute
-
-Lansstr. 7-9, 14195 Berlin
 
 
