@@ -6,13 +6,9 @@ author_profile: true
 ---
 
 Bo Li  
-
 Free University Berlin
-
 John-F.-Kennedy Institute  
-
 Department of Sociology
-
 Lansstr. 7-9, 14195 Berlin
 
 To get in touch, please fill out the contact form below.
