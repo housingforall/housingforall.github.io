@@ -4,6 +4,15 @@ title: "Contact"
 permalink: /contact/
 author_profile: true
 ---
+## Contact
+
+Bo Li  
+Free University Berlin
+John-F.-Kennedy Institute  
+Department of Sociology
+Lansstr. 7-9, 14195 Berlin
+
+To get in touch, please fill out the contact form below.
 
 <form action="https://formspree.io/f/mblobvde" method="POST">
   <div style="margin-bottom: 15px;">
