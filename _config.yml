@@ -29,6 +29,8 @@ author:
   location         : "Berlin, Germany"
   employer         : "Free University of Berlin"
   uri              : https://www.jfki.fu-berlin.de/en/faculty/sociology/persons/Li_Bo/index.html
+  uri_label        : "Institution Website"  # 尝试添加这一行
+
   
 
   # Academic websites
