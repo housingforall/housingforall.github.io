@@ -1,40 +1,8 @@
-/* 学术网站字体配置 */
-/* 保存为 assets/css/custom-fonts.css */
+/* 学术网站字体 - 简洁版本 */
+/* 导入Google Fonts - 只导入需要的字体 */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap');
 
-/* 导入Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
-
-/* 方案1: 经典学术风格 */
-.classic-academic {
-  /* 正文 */
-  font-family: "Georgia", "Times New Roman", serif;
-  font-size: 16px;
-  line-height: 1.6;
-  
-  /* 标题 */
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Georgia", "Times New Roman", serif;
-    font-weight: 700;
-    line-height: 1.3;
-  }
-}
-
-/* 方案2: 现代专业风格 */
-.modern-professional {
-  /* 正文 */
-  font-family: "Source Sans Pro", "Helvetica Neue", "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  
-  /* 标题 */
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
-    font-weight: 600;
-    line-height: 1.3;
-  }
-}
-
-/* 方案3: 混合搭配（推荐） */
+/* 正文字体 - Source Sans Pro */
 body {
   font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
@@ -42,7 +10,7 @@ body {
   color: #333;
 }
 
-/* 标题使用衬线字体 */
+/* 所有标题 - Merriweather */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Merriweather", "Georgia", "Times New Roman", serif;
   font-weight: 700;
@@ -51,92 +19,48 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
 }
 
-/* 具体标题大小 */
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
-}
+/* 标题具体大小 */
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.8rem; margin-top: 2rem; }
+h3 { font-size: 1.4rem; margin-top: 1.5rem; }
+h4 { font-size: 1.2rem; }
 
-h2 {
-  font-size: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-h3 {
-  font-size: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-h4 {
-  font-size: 1.25rem;
-}
-
-/* 段落和正文 */
+/* 段落 */
 p {
   margin-bottom: 1.2rem;
-  text-align: justify;
 }
 
-/* 引用文字 */
-blockquote {
-  font-family: "Merriweather", "Georgia", serif;
-  font-style: italic;
-  font-size: 1.1rem;
-  line-height: 1.7;
-  border-left: 4px solid #3498db;
-  padding-left: 1.5rem;
-  margin: 2rem 0;
-  color: #555;
-}
-
-/* 代码字体 */
-code, pre {
-  font-family: "Fira Code", "Monaco", "Consolas", monospace;
-  font-size: 0.9rem;
-}
-
-/* 导航菜单 */
-.navbar, .nav-link {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 500;
-}
-
-/* 作者信息 */
+/* 作者姓名 */
 .author__name {
   font-family: "Merriweather", "Georgia", serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 700;
 }
 
+/* 作者简介 */
 .author__bio {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 0.95rem;
   line-height: 1.5;
 }
 
-/* 发布信息和元数据 */
-.page__meta {
+/* 导航菜单 */
+.navbar, .nav-link, .main-nav {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 0.85rem;
-  color: #666;
+  font-weight: 600;
 }
 
-/* 响应式字体大小 */
+/* 引用文字 */
+blockquote {
+  font-family: "Merriweather", "Georgia", serif;
+  font-style: italic;
+  color: #555;
+}
+
+/* 移动端响应 */
 @media (max-width: 768px) {
-  body {
-    font-size: 15px;
-  }
-  
-  h1 {
-    font-size: 2rem;
-  }
-  
-  h2 {
-    font-size: 1.7rem;
-  }
-  
-  h3 {
-    font-size: 1.4rem;
-  }
+  body { font-size: 15px; }
+  h1 { font-size: 1.9rem; }
+  h2 { font-size: 1.6rem; }
+  h3 { font-size: 1.3rem; }
 }
