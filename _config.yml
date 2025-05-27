@@ -368,3 +368,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+# 添加自定义脚本支持 - 在文件最后添加
+footer_scripts:
+  - /assets/js/mobile-nav-fix.js
