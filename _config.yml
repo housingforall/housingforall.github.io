@@ -373,3 +373,5 @@ compress_html:
 # 添加自定义脚本支持 - 在文件最后添加
 footer_scripts:
   - /assets/js/mobile-nav-fix.js
+head_scripts:
+  - /assets/css/custom-fonts.css
