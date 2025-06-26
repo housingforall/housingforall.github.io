@@ -10,16 +10,18 @@ author_profile: true
   
 * **Li, B.,** Aalbers, M., Kohl, S., & Chen, J. (2024). Navigating Overaccumulation: The Financialization of Social Rented Housing in China. Status: *Revise & Resubmit* at Environment and Planning A.
 
-* Kohl, S., **Li, B.\*,** & Cui, C. (2024). Housing Segregation in Chinese Major Cities: A K-Nearest Neighbor Analysis of Longitudinal Big Data. *Revise & Resubmit* at Computers, Environment and Urban Systems.
+* Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2024). Young Talents' Settlement Decisions in China's Metropolises: An Integrated Prospect Theory Framework. *Revise & Resubmit* at Journal of Housing and the Built Environment.
 
-* Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2024). Beyond Economics: Unravelling the Psychological and Socio-Demographic Factors Shaping Home Purchase Intentions among Young Talents in China\'s First-Tier Cities. *Revise & Resubmit* at Journal of Housing and the Built Environment.
-
+* Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2024). Beyond Economics: Unravelling the Psychological and Socio-Demographic Factors Shaping Home Purchase Intentions among Young Talents in China\'s First-Tier Cities. *Under Review* at Population. Space and Place.
+  
 * Wen, J., **Li, B.\*,** Jansen, S. J., van der Heijden, H. & Boelhouwer, P. (2024). Leaving Intention of Recent Migrants across Urban Hierarchies: The Role of Housing, Employment and Amenities. *Revise & Resubmit* at Cities.
 
 * Liu, Z., Qian, Q., **Li, B.\*,** Jin, C. & Visscher, H. (2024). Dutch Householders\' Intentions to Adopt Shallow Geothermal Systems for Energy Transition of Existing Buildings: A Theory of Planned Behavior Approach. Status: *Revise & Resubmit* at Energy & Buildings.
   
 ## Selected Publications
 
+* Kohl, S., **Li, B.\*,** & Cui, C. (2025). Housing Segregation in Chinese Major Cities: A K-Nearest Neighbor Analysis of Longitudinal Big Data. *Computers, Environment and Urban Systems*.
+  
 * **Li, B.,** Jansen, S. J., van der Heijden, H., Yan, J., & Boelhouwer, P. (2024). Promoting the Private Rented Sector in Metropolitan China: Key Challenges and Solutions. *International Journal of Housing Policy*. [DOI](https://doi.org/10.1080/19491247.2024.2308735)
 
 * **Li, B.** (2023). The Realization of Class-Monopoly Rents: Landlords' Class Power and Its Impact on Tenants' Housing Experiences. *Journal of Urban Management*. [DOI](https://doi.org/10.1016/j.jum.2023.08.002)
