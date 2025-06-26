@@ -7,8 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
-**June, 2025**  
-The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China’s Real Estate Downturn **(Best Paper Award for Junior Scholars)** 
+**June, 2025**   
+***Best Paper Award for Junior Scholars***  
+The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China’s Real Estate Downturn  
 *Urban China Research Network (UCRN) conference, Chengdu, China*
 
 **August, 2024**  
