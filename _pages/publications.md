@@ -6,7 +6,7 @@ author_profile: true
 ---
 ## Work In Progress
 
-* **Li, B.** (2025). The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China's Real Estate Downturn. *Working Paper*. [PDF](https://housingforall.github.io/files/li-2025-fiscal-property-nexus.pdf)
+* **Li, B.** (2025). The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China's Real Estate Downturn. *Working Paper*. [PDF](https://housingforall.github.io/files/Bo_Li_fiscal_property_nexus.pdf)
   
 * **Li, B.,** Aalbers, M., Kohl, S., & Chen, J. (2024). Navigating Overaccumulation: The Financialization of Social Rented Housing in China. Status: *Revise & Resubmit* at Environment and Planning A.
 
