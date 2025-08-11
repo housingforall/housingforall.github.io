@@ -6,7 +6,7 @@ author_profile: true
 ---
 ## Work In Progress
 
-* **Li, B.** (2025). The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China's Real Estate Downturn. *Working Paper*. [PDF](https://housingforall.github.io/files/Bo_Li_fiscal_property_nexus.pdf)
+* **Li, B.** (2025). The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China's Real Estate Downturn. *Working Paper*. [PDF](https://housingforall.github.io/files/manustript_07_02.pdf)
   
 * Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2024). Young Talents' Settlement Decisions in China's Metropolises: An Integrated Prospect Theory Framework. *Revise & Resubmit* at Population. Space and Place.  
 
@@ -18,11 +18,11 @@ author_profile: true
   
 ## Selected Publications
 
-* **Li, B.,** Aalbers, M., Kohl, S., & Chen, J. (Forthcoming). Navigating Overaccumulation: The Financialization of Social Rented Housing in China. *Environment and Planning A: Economy and Space*.
+* **Li, B.,** Aalbers, M., Kohl, S., & Chen, J. (Forthcoming). Navigating Overaccumulation: The Financialization of Social Rented Housing in China. *Environment and Planning A: Economy and Space*.[PDF](https://housingforall.github.io/files/epa-public-version.pdf)
   
 * Kohl, S., **Li, B.\*,** & Cui, C. (2025). Housing Segregation in Chinese Major Cities: A K-Nearest Neighbor Analysis of Longitudinal Big Data. *Computers, Environment and Urban Systems*. [PDF](https://housingforall.github.io/files/ceus_2025.pdf)
   
-* **Li, B.,** Jansen, S. J., van der Heijden, H., Yan, J., & Boelhouwer, P. (2024). Promoting the Private Rented Sector in Metropolitan China: Key Challenges and Solutions. *International Journal of Housing Policy*. [DOI](https://doi.org/10.1080/19491247.2024.2308735)
+* **Li, B.,** Jansen, S. J., van der Heijden, H., Yan, J., & Boelhouwer, P. (2024). Promoting the Private Rented Sector in Metropolitan China: Key Challenges and Solutions. *International Journal of Housing Policy*. [PDF](https://housingforall.github.io/files/ijhp-2024.pdf)
 
 * **Li, B.** (2023). The Realization of Class-Monopoly Rents: Landlords' Class Power and Its Impact on Tenants' Housing Experiences. *Journal of Urban Management*. [PDF](https://housingforall.github.io/files/jum_2023.pdf)
 
