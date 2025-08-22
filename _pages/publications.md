@@ -8,8 +8,6 @@ author_profile: true
 
 * **Li, B.** (2025). The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China's Real Estate Downturn. *Working Paper*. [PDF](https://housingforall.github.io/files/manustript_07_02.pdf)
   
-* Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2024). Young Talents' Settlement Decisions in China's Metropolises: An Integrated Prospect Theory Framework. *Revise & Resubmit* at Population. Space and Place.  
-
 * Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2024). Beyond Economics: Unravelling the Psychological and Socio-Demographic Factors Shaping Home Purchase Intentions among Young Talents in China\'s First-Tier Cities. *Revise & Resubmit* at Journal of Housing and the Built Environment.
   
 * Wen, J., **Li, B.\*,** Jansen, S. J., van der Heijden, H. & Boelhouwer, P. (2024). Leaving Intention of Recent Migrants across Urban Hierarchies: The Role of Housing, Employment and Amenities. *Revise & Resubmit* at Cities.
@@ -18,6 +16,8 @@ author_profile: true
   
 ## Selected Publications
 
+* Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2024). Young Talents' Settlement Decisions in China's Metropolises: An Integrated Prospect Theory Framework. *Population. Space and Place*. [PDF](https://housingforall.github.io/files/psp_public_version.pdf)
+  
 * **Li, B.,** Aalbers, M., Kohl, S., & Chen, J. (Forthcoming). Navigating Overaccumulation: The Financialization of Social Rented Housing in China. *Environment and Planning A: Economy and Space*.[PDF](https://housingforall.github.io/files/epa-public-version.pdf)
   
 * Kohl, S., **Li, B.\*,** & Cui, C. (2025). Housing Segregation in Chinese Major Cities: A K-Nearest Neighbor Analysis of Longitudinal Big Data. *Computers, Environment and Urban Systems*. [PDF](https://housingforall.github.io/files/ceus_2025.pdf)
