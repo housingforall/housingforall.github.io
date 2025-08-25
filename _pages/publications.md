@@ -16,7 +16,7 @@ author_profile: true
   
 ## Selected Publications
 
-* Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2024). Young Talents' Settlement Decisions in China's Metropolises: An Integrated Prospect Theory Framework. *Population. Space and Place*. [PDF](https://housingforall.github.io/files/psp_public_version.pdf)
+* Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (Forthcoming). Young Talents' Settlement Decisions in China's Metropolises: An Integrated Prospect Theory Framework. *Population. Space and Place*. [PDF](https://housingforall.github.io/files/psp_public_version.pdf)
   
 * **Li, B.,** Aalbers, M., Kohl, S., & Chen, J. (Forthcoming). Navigating Overaccumulation: The Financialization of Social Rented Housing in China. *Environment and Planning A: Economy and Space*.[PDF](https://housingforall.github.io/files/epa-public-version.pdf)
   
