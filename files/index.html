@@ -31,7 +31,7 @@
 <div id="top10Container">
   <h4>Top 10 Declines</h4>
   <ol id="top10List"></ol>
-  <small>Click a city to zoom and see details</small>
+  <small>Click a city to zoom and see details including peak price, decline, and nationwide ranking</small>
 </div>
 
 <div id="map"></div>
@@ -44,10 +44,10 @@
   <div class="legend-item"><div class="legend-color" style="background:#87CEEB;"></div><span>-10% to -15%</span></div>
   <div class="legend-item"><div class="legend-color" style="background:#4169E1;"></div><span>-15% to -20%</span></div>
   <div class="legend-item"><div class="legend-color" style="background:#0000CD;"></div><span>-20% to -25%</span></div>
-  <div class="legend-item"><div class="legend-color" style="background:#000080;"></div><span>-25% to -30%</span></div>
-  <div class="legend-item"><div class="legend-color" style="background:#00008B;"></div><span>-30% to -35%</span></div>
-  <div class="legend-item"><div class="legend-color" style="background:#191970;"></div><span>-35% to -40%</span></div>
-  <div class="legend-item"><div class="legend-color" style="background:#000033;"></div><span>-40%+ (Worst)</span></div>
+  <div class="legend-item"><div class="legend-color" style="background:#314fb5;"></div><span>-25% to -30%</span></div>
+  <div class="legend-item"><div class="legend-color" style="background:#21358a;"></div><span>-30% to -35%</span></div>
+  <div class="legend-item"><div class="legend-color" style="background:#101a5e;"></div><span>-35% to -40%</span></div>
+  <div class="legend-item"><div class="legend-color" style="background:#330033;"></div><span>-40%+ (Worst)</span></div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
@@ -64,10 +64,10 @@ function getColor(val) {
     if(val > -15) return '#87CEEB';     // -10% 到 -15% (天蓝)
     if(val > -20) return '#4169E1';     // -15% 到 -20% (皇家蓝)
     if(val > -25) return '#0000CD';     // -20% 到 -25% (中蓝)
-    if(val > -30) return '#000080';     // -25% 到 -30% (海军蓝)
-    if(val > -35) return '#00008B';     // -30% 到 -35% (深蓝)
-    if(val > -40) return '#191970';     // -35% 到 -40% (午夜蓝)
-    return '#000033';                   // -40% 及以下 (极深蓝)
+    if(val > -30) return '#314fb5';     // -25% 到 -30% (蓝色)
+    if(val > -35) return '#21358a';     // -30% 到 -35% (深蓝)
+    if(val > -40) return '#101a5e';     // -35% 到 -40% (更深蓝)
+    return '#330033';                   // -40% 及以下 (深紫)
 }
 
 function style(feature) {
