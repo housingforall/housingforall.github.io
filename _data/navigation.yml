@@ -1,5 +1,8 @@
 # main links links
 main:
+  - title: "China Housing Price Decline"
+    url: /china_housing/
+    
   - title: "Publications"
     url: /publications/
     
