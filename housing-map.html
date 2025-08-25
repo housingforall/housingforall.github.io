@@ -1,0 +1,25 @@
+---
+permalink: /housing-map/
+title: "China Housing Price Analysis"
+author_profile: false
+---
+
+<style>
+  .housing-container {
+    width: 100%;
+    height: 80vh;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+</style>
+
+<div class="housing-container">
+  <iframe src="{{ site.url }}/files/china_housing_boundaries.html" 
+          width="100%" 
+          height="100%" 
+          frameborder="0"
+          style="border-radius: 8px;">
+  </iframe>
+</div>
+
+<p>Interactive map showing housing price changes from historical peaks across Chinese cities. Click on any city to see detailed information including peak year and current decline percentage.</p>
