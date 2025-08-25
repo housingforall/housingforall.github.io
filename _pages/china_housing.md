@@ -4,13 +4,16 @@ permalink: /china_housing/
 layout: single
 ---
 
-<div style="background-color:#f8f9fa; border-left: 6px solid #6c757d; padding: 1em; margin-bottom: 1.5em; border-radius: 4px;">
-
-**Note:**  
-The housing price data is based on the **monthly average listing prices of second-hand homes** from *Anjuke (安居客)*.  
-The decline refers to the drop from each city’s **peak housing price between 2010 and 2025** down to the value in **July 2025**.  
-Data is updated until **July 2025**.
-
+<div class="note" style="padding:12px; background:#f9f9f9; border-left:4px solid #1976d2; margin:10px; border-radius:6px; font-size:14px; line-height:1.5;">
+  <p>
+    <strong>Note:</strong> The housing price data is based on the monthly average listing prices of second-hand homes from <em>Anjuke (安居客)</em>.
+  </p>
+  <p>
+    <strong>Definition of decline:</strong> The percentage drop is measured from each city’s peak price between 2010 and 2025 down to the value in July 2025.
+  </p>
+  <p>
+    <strong>Tip:</strong> Click a city block to view details including the city name, the year and value of the peak price, and the decline up to July 2025.
+  </p>
 </div>
 
 <iframe src="/files/index.html" width="100%" height="800px" style="border:none; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1);"></iframe>
