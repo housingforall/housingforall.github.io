@@ -40,7 +40,7 @@
   <h4>Decline from Peak (%)</h4>
   <div class="legend-item"><div class="legend-color" style="background:#8B0000;"></div><span>+5% (New High)</span></div>
   <div class="legend-item"><div class="legend-color" style="background:#DC143C;"></div><span>0% to +5%</span></div>
-  <div class="legend-item"><div class="legend-color" style="background:#FFB6C1;"></div><span>0% to -5%</span></div>
+  <div class="legend-item"><div class="legend-color" style="background:#FFFFFF;"></div><span>0% to -5%</span></div>
   <div class="legend-item"><div class="legend-color" style="background:#E6F3FF;"></div><span>-5% to -10%</span></div>
   <div class="legend-item"><div class="legend-color" style="background:#87CEEB;"></div><span>-10% to -15%</span></div>
   <div class="legend-item"><div class="legend-color" style="background:#4169E1;"></div><span>-15% to -20%</span></div>
@@ -61,7 +61,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 function getColor(val) {
     if(val >= 5) return '#8B0000';      // 5% 及以上 (深红 - 新高)
     if(val >= 0) return '#DC143C';      // 0% 到 5% (红色 - 接近峰值)
-    if(val > -5) return '#FFB6C1';      // 0% 到 -5% (浅粉)
+    if(val > -5) return '#FFFFFF';      // 0% 到 -5% (白色 - 轻微下跌)
     if(val > -10) return '#E6F3FF';     // -5% 到 -10% (极浅蓝)
     if(val > -15) return '#87CEEB';     // -10% 到 -15% (天蓝)
     if(val > -20) return '#4169E1';     // -15% 到 -20% (皇家蓝)
@@ -90,8 +90,7 @@ function onEachFeature(feature, layer){
             <strong>Province:</strong> ${p.pr_name}<br/><br/>
             <strong>Peak Year:</strong> ${p.peak_year}<br/>
             <strong>Peak Price:</strong> ¥${Math.round(p.peak_price).toLocaleString()}/m²<br/>
-            <strong>Decline:</strong> ${decline.toFixed(1)}% until Jul 2025<br/>
-            <strong>Decline Rank:</strong> #${window.cityRankings ? window.cityRankings[p.city] || 'N/A' : 'Loading...'} nationwide
+            <strong>Decline:</strong> ${decline.toFixed(1)}% until Jul 2025
         </div>
     `,{maxWidth:300});
 }
@@ -100,28 +99,52 @@ function onEachFeature(feature, layer){
 fetch('peak_decline_boundaries_simplified.geojson')
     .then(response => response.json())
     .then(geojsonData => {
-        const geoLayer = L.geoJSON(geojsonData, {
-            style: style,
-            onEachFeature: onEachFeature
-        }).addTo(map);
-
-        map.fitBounds(geoLayer.getBounds(), {padding:[20,20]});
-
-        // 计算所有城市的跌幅排名
+        // 首先计算所有城市的跌幅排名
         let allCities = geojsonData.features
             .map(f => ({'f':f, 'drop': f.properties.decline_from_peak}))
             .sort((a,b)=>a.drop-b.drop);
         
-        // 为每个城市添加排名信息
+        // 创建排名映射
+        const cityRankings = {};
         allCities.forEach((city, index) => {
-            city.rank = index + 1;
+            cityRankings[city.f.properties.city] = index + 1;
         });
 
-        // 更新 onEachFeature 函数以显示排名
-        window.cityRankings = {};
-        allCities.forEach(city => {
-            window.cityRankings[city.f.properties.city] = city.rank;
-        });
+        // 重新定义 onEachFeature 函数，使用已计算的排名
+        function onEachFeatureWithRank(feature, layer){
+            const p = feature.properties;
+            const decline = p.decline_from_peak;
+            const rank = cityRankings[p.city] || 'N/A';
+            
+            // 根据涨跌情况显示不同的文本
+            let changeText, rankText;
+            if (decline >= 0) {
+                changeText = `<strong>Gain from Peak:</strong> +${decline.toFixed(1)}% until Jul 2025`;
+                rankText = `<strong>Performance Rank:</strong> #${rank} nationwide (Best performers)`;
+            } else {
+                changeText = `<strong>Decline from Peak:</strong> ${decline.toFixed(1)}% until Jul 2025`;
+                rankText = `<strong>Decline Rank:</strong> #${rank} nationwide (Worst performers)`;
+            }
+            
+            layer.bindPopup(`
+                <div style="font-family:Arial; line-height:1.4;">
+                    <h4 style="margin:0 0 10px 0;">${p.city}</h4>
+                    <strong>Province:</strong> ${p.pr_name}<br/><br/>
+                    <strong>Peak Year:</strong> ${p.peak_year}<br/>
+                    <strong>Peak Price:</strong> ¥${Math.round(p.peak_price).toLocaleString()}/m²<br/>
+                    ${changeText}<br/>
+                    ${rankText}
+                </div>
+            `,{maxWidth:300});
+        }
+
+        // 创建地图层，使用包含排名的函数
+        const geoLayer = L.geoJSON(geojsonData, {
+            style: style,
+            onEachFeature: onEachFeatureWithRank
+        }).addTo(map);
+
+        map.fitBounds(geoLayer.getBounds(), {padding:[20,20]});
 
         // Top10 declines
         let top10Items = allCities.slice(0,10);
