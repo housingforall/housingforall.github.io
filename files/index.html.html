@@ -3,31 +3,32 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>China Housing Price Peak Decline Analysis</title>
+    <title>China Housing Price Decline</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
     <style>
         body { margin: 0; font-family: Arial, sans-serif; }
         #map { height: 100vh; }
+
         .info-panel {
             position: absolute; top: 10px; right: 10px; z-index: 1000;
             background: #fff; padding: 14px; border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,.08); max-width: 300px;
+            box-shadow: 0 2px 10px rgba(0,0,0,.08); max-width: 320px;
         }
         .legend {
             position: absolute; bottom: 30px; right: 10px; z-index: 1000;
             background: #fff; padding: 12px; border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0,0,0,.08);
         }
-        .legend-item { display: flex; align-items: center; margin: 3px 0; font-size: 12px; }
+        .legend-item { display: flex; align-items: center; margin: 4px 0; font-size: 12px; }
         .legend-color { width: 20px; height: 15px; margin-right: 8px; border: 1px solid #ddd; }
         .stats { margin-top: 8px; padding-top: 8px; border-top: 1px solid #eee; font-size: 12px; color: #666; }
     </style>
 </head>
 <body>
     <div class="info-panel">
-        <h3 style="margin: 0 0 10px 0;">Housing Price Peak Decline</h3>
+        <h3 style="margin: 0 0 10px 0;">China Housing Price Decline</h3>
         <div>
             <strong>Analysis Overview</strong><br/>
             <span id="dataStatus">Loading data…</span>
@@ -47,7 +48,7 @@
         <div class="legend-item"><div class="legend-color" style="background:#E6F3FF;"></div><span>-10% decline</span></div>
         <div class="legend-item"><div class="legend-color" style="background:#87CEEB;"></div><span>-15% decline</span></div>
         <div class="legend-item"><div class="legend-color" style="background:#4169E1;"></div><span>-25% decline</span></div>
-        <div class="legend-item"><div class="legend-color" style="background:#000080;"></div><span>-30%+ decline</span></div>
+        <div class="legend-item"><div class="legend-color" style="background:#000080;"></div><span>-40%+ decline</span></div>
     </div>
 
     <div id="map"></div>
@@ -56,20 +57,26 @@
     <script>
         let map, currentLayer, geojsonData = null;
 
+        // Color mapping (updated: cap at -40%)
         function getColor(value) {
-            const cappedValue = Math.max(value, -30);
-            if (cappedValue >= 5)  return '#8B0000';
-            if (cappedValue >= 0)  return '#FFE6E6';
-            if (cappedValue >= -5) return '#FFFFFF';
-            if (cappedValue >= -10) return '#E6F3FF';
-            if (cappedValue >= -15) return '#87CEEB';
-            if (cappedValue >= -25) return '#4169E1';
-            return '#000080';
+            if (typeof value !== 'number' || isNaN(value)) return '#CCCCCC';
+            // Cap value at -40 (anything <= -40 shown as darkest blue)
+            const v = Math.max(value, -40);
+            if (v >= 5)   return '#8B0000';  // Dark red - new high
+            if (v >= 0)   return '#FFE6E6';  // Light red - near peak
+            if (v >= -5)  return '#FFFFFF';  // White - small decline
+            if (v >= -10) return '#E6F3FF';  // Very light blue
+            if (v >= -15) return '#87CEEB';  // Light blue
+            if (v >= -25) return '#4169E1';  // Blue
+            // v in [-40, -25)
+            return '#000080';                // Dark blue -40% or more decline
         }
 
         function style(feature) {
             const p = feature.properties || {};
-            const v = (typeof p.decline_from_peak_capped === 'number') ? p.decline_from_peak_capped : p.decline_from_peak;
+            const v = (typeof p.decline_from_peak_capped === 'number')
+                        ? p.decline_from_peak_capped
+                        : p.decline_from_peak;
             return {
                 fillColor: getColor(v),
                 weight: 0.2, opacity: 0.3, color: 'gray', fillOpacity: 0.9
@@ -130,6 +137,8 @@
 
         document.addEventListener('DOMContentLoaded', () => {
             initMap();
+            // 如果你把 index.html 放在 /files/ 目录里并且也把 geojson 放在 /files/，可用相对路径 './peak_decline_boundaries_simplified.geojson'
+            // 若 index.html 与 .geojson 在同一目录，直接用文件名即可
             fetch('peak_decline_boundaries_simplified.geojson')
               .then(r => r.json())
               .then(data => {
