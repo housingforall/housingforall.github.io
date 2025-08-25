@@ -1,130 +1,274 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8" />
   <title>China Housing Price Decline</title>
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <script src="https://d3js.org/topojson.v3.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    .note { padding:12px; background:#f9f9f9; border-left:4px solid #1976d2; 
-            margin:10px; border-radius:6px; font-size:14px; line-height:1.5; }
-    .tooltip { position: absolute; background: white; border: 1px solid #999;
-               padding: 6px; border-radius: 4px; pointer-events: none; font-size: 13px; }
-    .top10 { position: absolute; top: 100px; right: 10px; width: 260px; 
-             background: #fff; border: 1px solid #ddd; border-radius: 8px; 
-             padding: 10px; font-size: 14px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    svg { width: 100%; height: 600px; }
+    body { margin: 0; font-family: Arial, sans-serif; }
+    #map { height: 100vh; }
+
+    .note {
+      padding:12px; background:#f9f9f9; border-left:4px solid #1976d2;
+      margin:10px; border-radius:6px; font-size:14px; line-height:1.5;
+      position: absolute; top: 10px; left: 10px; right: 10px; z-index: 1100;
+      max-width: 680px;
+    }
+
+    .info-panel {
+      position: absolute; top: 120px; right: 10px; z-index: 1000;
+      background: #fff; padding: 14px; border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,.08); max-width: 320px;
+    }
+
+    .legend {
+      position: absolute; bottom: 30px; right: 10px; z-index: 1000;
+      background: #fff; padding: 12px; border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,.08);
+    }
+    .legend-item { display: flex; align-items: center; margin: 4px 0; font-size: 12px; }
+    .legend-color { width: 20px; height: 15px; margin-right: 8px; border: 1px solid #ddd; }
+
+    .top10-panel {
+      position: absolute; left: 10px; bottom: 30px; z-index: 1000;
+      background: #fff; padding: 12px; border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,.08); max-width: 320px;
+    }
+    .top10-panel ol { margin: 6px 0 0; padding-left: 18px; max-height: 220px; overflow:auto; }
+    .top10-panel li { cursor: pointer; }
+    .stats { margin-top:8px; padding-top:8px; border-top:1px solid #eee; font-size:12px; color:#666; }
   </style>
 </head>
 <body>
 
-<div class="note">
-  <p><strong>Note:</strong> The housing price data is based on the monthly average listing prices of second-hand homes from <em>Anjuke (安居客)</em>.</p>
-  <p><strong>Definition of decline:</strong> The percentage drop is measured from each city’s peak price between 2010 and 2025 down to the value in July 2025.</p>
-  <p><strong>Tip:</strong> Click a city block to view details including the city name, the year and value of the peak price, and the decline up to July 2025.</p>
-</div>
+  <!-- English Note above the map -->
+  <div class="note">
+    <p><strong>Note:</strong> The housing price data is based on the monthly average listing prices of second-hand homes from <em>Anjuke (安居客)</em>.</p>
+    <p><strong>Definition of decline:</strong> The percentage drop is measured from each city’s peak price between 2010 and 2025 down to the value in July 2025.</p>
+    <p><strong>Tip:</strong> Click a city region to view details including the city name, the year and value of the peak price, and the decline up to July 2025.</p>
+  </div>
 
-<svg id="map"></svg>
-<div class="top10" id="top10"><strong>Top 10 Cities by Decline</strong><ul></ul></div>
-<div class="tooltip" id="tooltip" style="opacity:0"></div>
+  <!-- Right info panel -->
+  <div class="info-panel">
+    <h3 style="margin:0 0 10px 0;">China Housing Price Decline</h3>
+    <div>
+      <strong>Analysis Overview</strong><br/>
+      <span id="dataStatus">Loading data…</span>
+    </div>
+    <div class="stats" id="statsPanel" style="display:none">
+      <div id="averageDecline"></div>
+      <div id="severeDeclines"></div>
+      <div id="nearPeaks"></div>
+    </div>
+  </div>
 
-<script>
-// === STEP 1: Projection and SVG ===
-const width = 960, height = 600;
-const svg = d3.select("#map")
-    .attr("width", width)
-    .attr("height", height);
+  <!-- Right legend (auto-filled by JS to match bins) -->
+  <div class="legend" id="legendBox">
+    <h4 style="margin: 0 0 10px 0;">Decline from Peak (%)</h4>
+  </div>
 
-const projection = d3.geoMercator()
-    .center([104, 35])
-    .scale(700)
-    .translate([width / 2, height / 2]);
+  <!-- Left bottom Top10 -->
+  <div class="top10-panel">
+    <h4 style="margin:0 0 6px 0;">Top 10 Cities by Decline</h4>
+    <ol id="top10List"></ol>
+  </div>
 
-const path = d3.geoPath().projection(projection);
+  <div id="map"></div>
 
-// === STEP 2: Load data ===
-Promise.all([
-  d3.json("files/china_simplified.geojson"),  // your simplified GeoJSON
-  d3.csv("files/decline_data.csv")            // city decline data
-]).then(([geojson, data]) => {
-  let declineMap = {};
-  data.forEach(d => {
-    declineMap[d.city] = {
-      decline: +d.decline,
-      peakYear: d.peakYear,
-      peakPrice: d.peakPrice
-    };
-  });
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script>
+    // ======= CONFIG =======
+    const GEOJSON = "peak_decline_boundaries_simplified.geojson"; // same folder as this HTML (files/)
 
-  geojson.features.forEach(f => {
-    let city = f.properties.name;
-    if (declineMap[city]) {
-      f.properties.decline = declineMap[city].decline;
-      f.properties.peakYear = declineMap[city].peakYear;
-      f.properties.peakPrice = declineMap[city].peakPrice;
-    } else {
-      f.properties.decline = 0;
+    // Discrete bins so that 30–35 and 35–40 are distinct, and ≥40 is darkest.
+    const COLOR_BINS = [
+      { label: "New High (+5%)", color: "#8B0000", key: "newhigh" },   // special case
+      { label: "0–5% decline",   color: "#f7fbff", min: 0,  max: 5  },
+      { label: "5–10% decline",  color: "#deebf7", min: 5,  max: 10 },
+      { label: "10–15%",         color: "#c6dbef", min: 10, max: 15 },
+      { label: "15–20%",         color: "#9ecae1", min: 15, max: 20 },
+      { label: "20–25%",         color: "#6baed6", min: 20, max: 25 },
+      { label: "25–30%",         color: "#4292c6", min: 25, max: 30 },
+      { label: "30–35%",         color: "#2171b5", min: 30, max: 35 },
+      { label: "35–40%",         color: "#08519c", min: 35, max: 40 },
+      { label: "≥ 40%",          color: "#08306b", min: 40, max: Infinity }
+    ];
+
+    function getCityName(p) {
+      return p.city_en || p.city || p.name || "Unknown";
     }
-  });
+    function getRawDecline(p) {
+      // Prefer the uncapped value if available, else use the capped one
+      if (typeof p.decline_from_peak === "number") return p.decline_from_peak;
+      if (typeof p.decline_from_peak_capped === "number") return p.decline_from_peak_capped;
+      return null;
+    }
+    function toDropMagnitude(raw) {
+      // Convert negative percentages (drops) to positive magnitudes
+      // Treat raw >= +5 as "new high" (red); raw in [0, +5) as 0 drop (near peak)
+      if (raw === null) return { drop: null, newHigh: false };
+      if (raw >= 5) return { drop: 0, newHigh: true };
+      if (raw >= 0) return { drop: 0, newHigh: false };
+      return { drop: -raw, newHigh: false };
+    }
 
-  // === STEP 3: Color scale ===
-  let color = d3.scaleThreshold()
-      .domain([10, 20, 30, 40, 50])   // thresholds
-      .range(d3.schemeBlues[6]);      // 6 shades
+    function getColorForValue(raw) {
+      const { drop, newHigh } = toDropMagnitude(raw);
+      if (newHigh) return "#8B0000";
+      if (drop === null) return "#CCCCCC";
+      for (let i = 1; i < COLOR_BINS.length; i++) {
+        const b = COLOR_BINS[i];
+        if (drop >= b.min && drop < b.max) return b.color;
+      }
+      return COLOR_BINS[COLOR_BINS.length - 1].color;
+    }
 
-  // === STEP 4: Tooltip ===
-  const tooltip = d3.select("#tooltip");
+    function style(feature) {
+      const p = feature.properties || {};
+      const raw = getRawDecline(p);
+      return {
+        fillColor: getColorForValue(raw),
+        weight: 0.2, opacity: 0.3, color: "gray", fillOpacity: 0.9
+      };
+    }
 
-  // === STEP 5: Draw map ===
-  svg.selectAll("path")
-    .data(geojson.features)
-    .join("path")
-    .attr("d", path)
-    .attr("fill", d => d.properties.decline ? color(d.properties.decline) : "#ccc")
-    .attr("stroke", "#333")
-    .on("mouseover", function(event, d) {
-      d3.select(this).attr("stroke-width", 2);
-      tooltip.transition().duration(200).style("opacity", 1);
-      tooltip.html(`
-        <strong>${d.properties.name}</strong><br/>
-        Peak Year: ${d.properties.peakYear || "N/A"}<br/>
-        Peak Price: ${d.properties.peakPrice || "N/A"}<br/>
-        Decline: ${d.properties.decline ? d.properties.decline.toFixed(1) + "%" : "N/A"}
-      `)
-      .style("left", (event.pageX+10)+"px")
-      .style("top", (event.pageY-28)+"px");
-    })
-    .on("mouseout", function() {
-      d3.select(this).attr("stroke-width", 1);
-      tooltip.transition().duration(200).style("opacity", 0);
+    function formatNumber(n) {
+      return (typeof n === "number" && isFinite(n)) ? Math.round(n).toLocaleString() : "N/A";
+    }
+
+    function onEachFeature(feature, layer) {
+      const p = feature.properties || {};
+      const raw = getRawDecline(p);
+      const { drop, newHigh } = toDropMagnitude(raw);
+      const declineText = (drop !== null) ? `${drop.toFixed(1)}%` : "N/A";
+      const rank = p._rank ? `#${p._rank}` : "N/A";
+
+      // Try to infer current year from data if provided
+      const allYears = (window.__allYears || []);
+      const currentYear = (allYears.length ? Math.max(...allYears) : new Date().getFullYear());
+
+      layer.bindPopup(`
+        <div style="font-family: Arial, sans-serif; line-height: 1.4;">
+          <h4 style="margin: 0 0 10px 0; color: #333;">${getCityName(p)}</h4>
+          <strong>Province:</strong> ${p.pr_name ?? "N/A"}<br/><br/>
+          <div style="background:#f5f5f5; padding:8px; border-radius:4px; margin:8px 0;">
+            <strong>🏆 Peak Year: ${p.peak_year ?? "N/A"}</strong><br/>
+            <small>Peak Price: ¥${formatNumber(p.peak_price)}/m²</small>
+          </div>
+          <div style="background:#f0f8ff; padding:8px; border-radius:4px; margin:8px 0;">
+            <strong>📅 Current (${currentYear}):</strong><br/>
+            <strong>Decline from peak:</strong> ${newHigh ? "New High" : declineText}<br/>
+            <strong>National Rank:</strong> ${newHigh ? "N/A" : rank}
+          </div>
+          <small>Current Price: ¥${formatNumber(p.current_price)}/m² · ⏱️ ${p.years_since_peak ?? "N/A"} years since peak · 🏢 Tier: ${p.tier ?? "N/A"}</small>
+        </div>
+      `, { maxWidth: 320 });
+    }
+
+    function buildLegend() {
+      const box = document.getElementById("legendBox");
+      const itemsHtml = COLOR_BINS.map(b => `
+        <div class="legend-item">
+          <div class="legend-color" style="background:${b.color};"></div>
+          <span>${b.label}</span>
+        </div>
+      `).join("");
+      box.insertAdjacentHTML("beforeend", itemsHtml);
+    }
+
+    function calculateStatsAndRanking(data) {
+      const items = [];
+      // collect all 'year' values if present for "currentYear" display
+      window.__allYears = (data.features || []).map(f => f.properties?.year).filter(v => typeof v === "number");
+
+      for (const f of data.features) {
+        const p = f.properties || {};
+        const raw = getRawDecline(p);
+        const { drop, newHigh } = toDropMagnitude(raw);
+        if (drop !== null && !newHigh) {
+          items.push({ f, drop });
+        }
+      }
+      // Sort by drop desc and assign rank
+      items.sort((a, b) => b.drop - a.drop);
+      items.forEach((it, i) => { it.f.properties._rank = i + 1; });
+
+      // Stats (based on real drop magnitudes)
+      if (items.length) {
+        const declines = items.map(it => it.drop);
+        const avg = declines.reduce((a, b) => a + b, 0) / declines.length;
+        const severe = declines.filter(d => d >= 20).length; // >=20%
+        const nearPeak = declines.filter(d => d < 5).length; // <5%
+
+        document.getElementById("averageDecline").textContent = `Avg decline: ${avg.toFixed(1)}%`;
+        document.getElementById("severeDeclines").textContent = `Severe decline (≥20%): ${severe} cities`;
+        document.getElementById("nearPeaks").textContent = `Near peak (<5% decline): ${nearPeak} cities`;
+        document.getElementById("statsPanel").style.display = "";
+      }
+
+      // Top 10 list (click to zoom & open popup)
+      const top10 = items.slice(0, 10);
+      const ol = document.getElementById("top10List");
+      ol.innerHTML = "";
+      top10.forEach(it => {
+        const name = getCityName(it.f.properties || {});
+        const li = document.createElement("li");
+        li.textContent = `${name}: ${it.drop.toFixed(1)}%`;
+        li.addEventListener("click", () => {
+          if (it._layer && it._layer.getBounds) {
+            map.fitBounds(it._layer.getBounds(), { padding: [20, 20] });
+            it._layer.openPopup();
+          }
+        });
+        ol.appendChild(li);
+      });
+
+      return items;
+    }
+
+    let map, currentLayer;
+
+    function initMap() {
+      map = L.map("map").setView([35, 105], 4);
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "© OpenStreetMap contributors"
+      }).addTo(map);
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      initMap();
+      buildLegend();
+
+      fetch(GEOJSON)
+        .then(r => r.json())
+        .then(data => {
+          document.getElementById("dataStatus").textContent =
+            `Total Cities: ${data.features?.length ?? 0}`;
+
+          // Ranking & stats before adding to map
+          const rankedItems = calculateStatsAndRanking(data);
+
+          // Add GeoJSON layer
+          currentLayer = L.geoJSON(data, { style, onEachFeature }).addTo(map);
+
+          // Wire ranked items to layers for Top10 click
+          currentLayer.eachLayer(layer => {
+            const f = layer.feature;
+            const match = rankedItems.find(it => it.f === f);
+            if (match) match._layer = layer;
+          });
+
+          // Fit bounds
+          if (currentLayer.getBounds().isValid()) {
+            map.fitBounds(currentLayer.getBounds(), { padding: [20, 20] });
+          }
+        })
+        .catch(err => {
+          console.error(err);
+          document.getElementById("dataStatus").textContent = "❌ Failed to load data";
+        });
     });
-
-  // === STEP 6: Legend ===
-  const legend = d3.legendColor()
-    .labelFormat(d3.format(".0f"))
-    .labels(d3.legendHelpers.thresholdLabels)
-    .scale(color)
-    .title("Decline (%)");
-
-  svg.append("g")
-    .attr("transform", "translate(20,400)")
-    .call(legend);
-
-  // === STEP 7: Top 10 cities ===
-  let top10 = geojson.features
-    .filter(d => d.properties.decline)
-    .sort((a,b) => d3.descending(a.properties.decline, b.properties.decline))
-    .slice(0,10);
-
-  let top10Box = d3.select("#top10 ul");
-  top10Box.selectAll("li")
-    .data(top10)
-    .enter()
-    .append("li")
-    .text(d => `${d.properties.name}: ${d.properties.decline.toFixed(1)}%`);
-});
-</script>
+  </script>
 </body>
 </html>
