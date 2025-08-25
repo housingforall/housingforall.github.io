@@ -12,7 +12,7 @@ layout: single
     <strong>Definition of decline:</strong> The percentage drop is measured from each city’s peak price between 2010 and 2025 down to the value in July 2025.
   </p>
   <p>
-    <strong>Tip:</strong> Click a city block to view details including the city name, the year and value of the peak price, and the decline up to July 2025.
+    <strong>Tip:</strong> Click a city block to view details including the peak year and price, decline percentage from peak to July 2025, and nationwide decline ranking.
   </p>
 </div>
 
