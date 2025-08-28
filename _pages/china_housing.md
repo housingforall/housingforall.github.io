@@ -1,5 +1,5 @@
 ---
-title: "China Housing Price Decline"
+title: "China Housing Price Decline Ranking"
 permalink: /china_housing/
 layout: single
 ---
@@ -39,13 +39,14 @@ body.dark .note {
 
 <div class="note">
   <p>
-    <strong>Note:</strong> The housing price data is based on the monthly average listing prices of second-hand homes from <em>Anjuke (安居客)</em>.
+    <strong>Tip:</strong> Click a city block to view details including the peak year and price, decline percentage from peak to July 2025, and nationwide decline ranking.
+
   </p>
   <p>
     <strong>Definition of decline:</strong> The percentage drop is measured from each city's peak price between 2010 and 2025 down to the value in July 2025.
   </p>
   <p>
-    <strong>Tip:</strong> Click a city block to view details including the peak year and price, decline percentage from peak to July 2025, and nationwide decline ranking.
+    <strong>Data Source:</strong> The housing price data is based on the monthly average listing prices of second-hand homes from <em>Anjuke (安居客)</em>.
   </p>
 </div>
 
