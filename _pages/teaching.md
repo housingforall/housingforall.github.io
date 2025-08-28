@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-### Introduction to Urban Sociology (Winter 2025)  
+### Introduction to Urban Sociology and Planning (Winter 2025)  
 *Lecturer, Free University of Berlin, JFK Institute*  
 
 ### Introduction to Comparative-historical Housing Sociology (2024)  
