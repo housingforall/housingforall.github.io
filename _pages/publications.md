@@ -5,25 +5,24 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Housing Policy and Financialization
+## Housing Financialization
 
 * **Li, B.,** Aalbers, M., Kohl, S., & Chen, J. (Forthcoming). Navigating Overaccumulation: The Financialization of Social Rented Housing in China. *Environment and Planning A: Economy and Space*. [PDF](https://housingforall.github.io/files/epa-public-version.pdf)
   
-* **Li, B.,** Jansen, S. J., van der Heijden, H., Yan, J., & Boelhouwer, P. (2024). Promoting the Private Rented Sector in Metropolitan China: Key Challenges and Solutions. *International Journal of Housing Policy*. [PDF](https://housingforall.github.io/files/ijhp-2024.pdf)
-    
-## Housing Segregation and Social Equity
+* **Li, B.** (2023). The Realization of Class-Monopoly Rents: Landlords' Class Power and Its Impact on Tenants' Housing Experiences. *Journal of Urban Management*. [PDF](https://housingforall.github.io/files/jum_2023.pdf)
+
+## Housing Markets and Social Equity
 
 * Kohl, S., **Li, B.\*,** & Cui, C. (2025). Housing Segregation in Chinese Major Cities: A K-Nearest Neighbor Analysis of Longitudinal Big Data. *Computers, Environment and Urban Systems*. [PDF](https://housingforall.github.io/files/ceus_2025.pdf)
   
-* **Li, B.** (2023). The Realization of Class-Monopoly Rents: Landlords' Class Power and Its Impact on Tenants' Housing Experiences. *Journal of Urban Management*. [PDF](https://housingforall.github.io/files/jum_2023.pdf)
+* **Li, B.,** Jansen, S. J., van der Heijden, H., Yan, J., & Boelhouwer, P. (2024). Promoting the Private Rented Sector in Metropolitan China: Key Challenges and Solutions. *International Journal of Housing Policy*. [PDF](https://housingforall.github.io/files/ijhp-2024.pdf)
 
-## Health and Well-being
+## Built Environment and Well-being
 
 * **Li, B.,** Jansen, S. J., van der Heijden, H., Jin, C., & Boelhouwer, P. (2023). Understanding the Relationship between Residential Environment, Social Exclusion, and Life Satisfaction of Private Renters in Shenzhen. *Journal of Housing and the Built Environment*. [PDF](https://housingforall.github.io/files/hbe_2023.pdf)
   
 * **Li, B.,** Jin, C.\*, Jansen, S. J., van der Heijden, H., & Boelhouwer, P. (2021). Residential Satisfaction of Private Tenants in China's Superstar Cities: The Case of Shenzhen, China. *Cities*. [PDF](https://housingforall.github.io/files/cities_2021.pdf)
 
- 
 ## Housing and Migration Choices
 
 * Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (Forthcoming). Young Talents' Settlement Decisions in China's Metropolises: An Integrated Prospect Theory Framework. *Population, Space and Place*. [PDF](https://housingforall.github.io/files/psp_public_version.pdf)
