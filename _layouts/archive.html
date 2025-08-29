@@ -13,9 +13,9 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  {% include sidebar.html %}
+  <!-- 移除了侧边栏：{% include sidebar.html %} -->
 
-  <div class="archive">
+  <div class="archive archive--no-sidebar">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
