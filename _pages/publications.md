@@ -34,6 +34,7 @@ author_profile: true
 * Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2022). What Attracts Young Talents? Understanding the Migration Intention of University Students to First-tier Cities in China. *Cities*. [PDF](https://housingforall.github.io/files/cities_2022.pdf)
 
 ## Circular Economy and Energy Transition 
+* Liu, Z., Qian, Q., **Li, B.\*,** Jin, C. & Visscher, H. (Forthcoming). Dutch Householders\' Intentions to Adopt Shallow Geothermal Systems for Energy Transition of Existing Buildings: A Theory of Planned Behavior Approach. *Energy & Buildings*.
 
 * Li, B., Xiang, P., Hu, M., Zhang, C., & Dong, L. (2017). The vulnerability of industrial symbiosis: A case study of Qijiang Industrial Park, China. *Journal of Cleaner Production*. [PDF](https://housingforall.github.io/files/jcp_2017.pdf)
   
@@ -49,6 +50,5 @@ author_profile: true
   
 * Wen, J., **Li, B.\*,** Jansen, S. J., van der Heijden, H. & Boelhouwer, P.  Leaving Intention of Recent Migrants across Urban Hierarchies: The Role of Housing, Employment and Amenities. *Revise & Resubmit* at Cities.
 
-* Liu, Z., Qian, Q., **Li, B.\*,** Jin, C. & Visscher, H.  Dutch Householders\' Intentions to Adopt Shallow Geothermal Systems for Energy Transition of Existing Buildings: A Theory of Planned Behavior Approach. Status: *Revise & Resubmit* at Energy & Buildings.
   
 
