@@ -25,7 +25,7 @@ author_profile: true
 
 ## Residential Mobility and Migration
 
-* Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (Forthcoming). Young Talents' Settlement Decisions in China's Metropolises: An Integrated Prospect Theory Framework. *Population, Space and Place*. [PDF](https://housingforall.github.io/files/psp_public_version.pdf)
+* Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2025). Young Talents' Settlement Decisions in China's Metropolises: An Integrated Prospect Theory Framework. *Population, Space and Place*. [PDF](https://housingforall.github.io/files/psp_public_version.pdf)
   
 * Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2023). Understanding the Housing Pathways and Migration Plans of Young Talents in Metropolises--A Case Study of Shenzhen. *Housing, Theory and Society*. [PDF](https://housingforall.github.io/files/hts_2023.pdf)
 
