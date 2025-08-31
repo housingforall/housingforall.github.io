@@ -36,7 +36,7 @@ author_profile: true
 ## Sustainable Built Environment 
 * Liu, Z., Qian, Q., **Li, B.\*,** Jin, C. & Visscher, H. (Forthcoming). Dutch Householders\' Intentions to Adopt Shallow Geothermal Systems for Energy Transition of Existing Buildings: A Theory of Planned Behavior Approach. *Energy & Buildings*.
 
-* Li, B., Xiang, P., Hu, M., Zhang, C., & Dong, L. (2017). The vulnerability of industrial symbiosis: A case study of Qijiang Industrial Park, China. *Journal of Cleaner Production*. [PDF](https://housingforall.github.io/files/jcp_2017.pdf)
+* **Li, B.,** Xiang, P., Hu, M., Zhang, C., & Dong, L. (2017). The vulnerability of industrial symbiosis: A case study of Qijiang Industrial Park, China. *Journal of Cleaner Production*. [PDF](https://housingforall.github.io/files/jcp_2017.pdf)
   
 ## Public Outreach
 
