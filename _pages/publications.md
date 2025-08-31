@@ -7,7 +7,7 @@ author_profile: true
 
 ## Housing Financialization
 
-* **Li, B.,** Aalbers, M., Kohl, S., & Chen, J. (Forthcoming). Navigating Overaccumulation: The Financialization of Social Rented Housing in China. *Environment and Planning A: Economy and Space*. [PDF](https://housingforall.github.io/files/epa-public-version.pdf)
+* **Li, B.,** Aalbers, M., Kohl, S., & Chen, J. (2025). Navigating Overaccumulation: The Financialization of Social Rented Housing in China. *Environment and Planning A: Economy and Space*. [PDF](https://housingforall.github.io/files/epa-public-version.pdf)
   
 * **Li, B.** (2023). The Realization of Class-Monopoly Rents: Landlords' Class Power and Its Impact on Tenants' Housing Experiences. *Journal of Urban Management*. [PDF](https://housingforall.github.io/files/jum_2023.pdf)
 
@@ -21,7 +21,7 @@ author_profile: true
 
 * **Li, B.,** Jansen, S. J., van der Heijden, H., Jin, C., & Boelhouwer, P. (2023). Understanding the Relationship between Residential Environment, Social Exclusion, and Life Satisfaction of Private Renters in Shenzhen. *Journal of Housing and the Built Environment*. [PDF](https://housingforall.github.io/files/hbe_2023.pdf)
   
-* **Li, B.,** Jin, C.\*, Jansen, S. J., van der Heijden, H., & Boelhouwer, P. (2021). Residential Satisfaction of Private Tenants in China's Superstar Cities: The Case of Shenzhen, China. *Cities*. [PDF](https://housingforall.github.io/files/cities_2021.pdf)
+* **Li, B.,** Jin, C., Jansen, S. J., van der Heijden, H., & Boelhouwer, P. (2021). Residential Satisfaction of Private Tenants in China's Superstar Cities: The Case of Shenzhen, China. *Cities*. [PDF](https://housingforall.github.io/files/cities_2021.pdf)
 
 ## Residential Mobility and Migration
 
