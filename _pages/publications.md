@@ -34,10 +34,13 @@ author_profile: true
 * Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2022). What Attracts Young Talents? Understanding the Migration Intention of University Students to First-tier Cities in China. *Cities*. [PDF](https://housingforall.github.io/files/cities_2022.pdf)
 
 ## Sustainable Built Environment 
-* Liu, Z., Qian, Q., **Li, B.\*,** Jin, C. & Visscher, H. (Forthcoming). Dutch Householders\' Intentions to Adopt Shallow Geothermal Systems for Energy Transition of Existing Buildings: A Theory of Planned Behavior Approach. *Energy & Buildings*.
+* Liu, Z., Qian, Q., **Li, B.\*,** Jin, C. & Visscher, H. (2025). Dutch Householders\' Intentions to Adopt Shallow Geothermal Systems for Energy Transition of Existing Buildings: A Theory of Planned Behavior Approach. *Energy & Buildings*.[PDF](https://housingforall.github.io/files/eb_2025.pdf) 
 
 * **Li, B.,** Xiang, P., Hu, M., Zhang, C., & Dong, L. (2017). The vulnerability of industrial symbiosis: A case study of Qijiang Industrial Park, China. *Journal of Cleaner Production*. [PDF](https://housingforall.github.io/files/jcp_2017.pdf)
   
+## Book Review
+(Ben Ansell) Why Politics Fails: The Five Traps of the Modern World & How to Escape Them. *Economic Sociology: Perspectives and Conversations* [PDF](https://housingforall.github.io/files/book_review_ansell.pdf)
+
 ## Public Outreach
 
 * **Li, B.,** Kohl, S. (2025). Why Do Most Germans Rent? — Insights from a "Rental-Dominant" Country. (为何大部分德国人租房？——"以租为主"国家的经验与启示). In Chinese. Published on WeChat Platform. [link](https://mp.weixin.qq.com/s/lfs16iBYj-xZMBZ1mKtIMA)
