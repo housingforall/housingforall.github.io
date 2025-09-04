@@ -29,7 +29,7 @@ author_profile: true
   
 * Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2023). Understanding the Housing Pathways and Migration Plans of Young Talents in Metropolises--A Case Study of Shenzhen. *Housing, Theory and Society*. [PDF](https://housingforall.github.io/files/hts_2023.pdf)
 
-* **Li, B.,** Jansen, S. J., van der Heijden, H., Jin, C.\*, & Boelhouwer, P. (2022). Unraveling the determinants for private renting in metropolitan China: An application of the Theory of Planned Behavior. *Habitat International*. [PDF](https://housingforall.github.io/files/hi_2022.pdf)
+* **Li, B.,** Jansen, S. J., van der Heijden, H., Jin, C., & Boelhouwer, P. (2022). Unraveling the determinants for private renting in metropolitan China: An application of the Theory of Planned Behavior. *Habitat International*. [PDF](https://housingforall.github.io/files/hi_2022.pdf)
 
 * Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2022). What Attracts Young Talents? Understanding the Migration Intention of University Students to First-tier Cities in China. *Cities*. [PDF](https://housingforall.github.io/files/cities_2022.pdf)
 
@@ -39,7 +39,7 @@ author_profile: true
 * **Li, B.,** Xiang, P., Hu, M., Zhang, C., & Dong, L. (2017). The vulnerability of industrial symbiosis: A case study of Qijiang Industrial Park, China. *Journal of Cleaner Production*. [PDF](https://housingforall.github.io/files/jcp_2017.pdf)
   
 ## Book Review
-(Ben Ansell) Why Politics Fails: The Five Traps of the Modern World & How to Escape Them. *Economic Sociology: Perspectives and Conversations* [PDF](https://housingforall.github.io/files/book_review_ansell.pdf)
+* **Li, B.** (2023). (Ben Ansell) Why Politics Fails: The Five Traps of the Modern World & How to Escape Them. *Economic Sociology: Perspectives and Conversations* [PDF](https://housingforall.github.io/files/book_review_ansell.pdf)
 
 ## Public Outreach
 
