@@ -51,4 +51,49 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
+
+    /* 表单输入框样式 - 修复夜间模式下的可见性问题 */
+    input[type="text"],
+    input[type="email"],
+    input[type="url"],
+    input[type="password"],
+    input[type="search"],
+    textarea,
+    select {
+        background-color: #2d2d2d !important;
+        color: #e0e0e0 !important;
+        border: 1px solid #555555 !important;
+    }
+
+    /* 占位符文字颜色 */
+    input::placeholder,
+    textarea::placeholder {
+        color: #999999 !important;
+        opacity: 1;
+    }
+
+    /* 输入框获得焦点时的样式 */
+    input:focus,
+    textarea:focus,
+    select:focus {
+        background-color: #363636 !important;
+        border-color: #{$link} !important;
+        outline: none;
+        box-shadow: 0 0 5px rgba(14, 161, 197, 0.3);
+    }
+
+    /* 确保按钮在夜间模式下可见 */
+    button,
+    .btn,
+    input[type="submit"],
+    input[type="button"] {
+        background-color: #{$link};
+        color: #ffffff;
+        border: 1px solid #{$link};
+        
+        &:hover {
+            background-color: #{$link-dark};
+            border-color: #{$link-dark};
+        }
+    }
 }
