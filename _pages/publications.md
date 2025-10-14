@@ -43,7 +43,7 @@ author_profile: true
 
 ## Public Outreach
 
-* **Li, B.,** Kohl, S. (2025). Why Do Most Germans Rent? — Insights from a "Rental-Dominant" Country. (为何大部分德国人租房？——"以租为主"国家的经验与启示). In Chinese. Published on WeChat Platform. [link](https://mp.weixin.qq.com/s/lfs16iBYj-xZMBZ1mKtIMA)
+* **Li, B.,** Kohl, S. (2025). Why Do Most Germans Rent? — The Political Economy of a “Renting-Oriented” Nation (为何大部分德国人租房？——"以租为主"国家的政治经济学逻辑). In Chinese. Published on WeChat Platform. [PDF](https://housingforall.github.io/files/why_germans_rent.pdf)
 
 ## Work In Progress
 
