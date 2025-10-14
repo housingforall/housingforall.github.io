@@ -47,7 +47,7 @@ author_profile: true
 
 ## Work In Progress
 
-* **Li, B.**  The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China's Real Estate Downturn. *Working Paper*. [PDF](https://housingforall.github.io/files/manustript_07_02.pdf)
+* **Li, B.**  The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China's Real Estate Downturn. *Working Paper*. [PDF](https://housingforall.github.io/files/manustript_0930.pdf)
   
 * Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J.  Beyond Economics: Unravelling the Psychological and Socio-Demographic Factors Shaping Home Purchase Intentions among Young Talents in China\'s First-Tier Cities. *Revise & Resubmit* at Journal of Housing and the Built Environment.
   
