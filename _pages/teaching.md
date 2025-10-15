@@ -7,8 +7,14 @@ author_profile: true
 
 {% include base_path %}
 
-### Introduction to Urban Sociology and Planning (Winter 2025)  
+### Introduction to Urban Sociology (Winter 2025)  
 *Lecturer, Free University of Berlin, JFK Institute*  
+
+Cities are fundamental sites of modern social life, concentrating both opportunity and inequality, innovation and conflict. Understanding cities requires examining how markets, states, and social movements shape urban space, and how race, class, gender, and immigration intersect in the urban context. 
+
+This seminar examines American cities over the past 150 years through major theoretical traditions and empirical themes. We explore housing markets, racial segregation, immigration, suburbanization, gentrification, policing, gender, finance, education, and urban politics. Throughout, we maintain a comparative lens, juxtaposing American patterns with European experiences. 
+
+The course has two goals. First, to familiarize students with major theoretical frameworks in urban sociology, building a conceptual toolkit for analyzing cities. Second, to develop critical analytical skills through engagement with classic texts and contemporary research. Students will read at least one complete book, give a presentation, and produce an original essay demonstrating their ability to synthesize course concepts or apply them to empirical analysis.
 
 ### Introduction to Comparative-historical Housing Sociology (2024)  
 *Assistant  Lecturer, Free University of Berlin, JFK Institute*  
