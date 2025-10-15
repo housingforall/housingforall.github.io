@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-### Introduction to Urban Sociology (Winter 2025)  
+### Introduction to Urban Sociology (2025/26)  
 *Lecturer, Free University of Berlin, JFK Institute*  
 
 Cities are fundamental sites of modern social life, concentrating both opportunity and inequality, innovation and conflict. Understanding cities requires examining how markets, states, and social movements shape urban space, and how race, class, gender, and immigration intersect in the urban context. 
