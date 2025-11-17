@@ -9,11 +9,11 @@ author_profile: true
 
 **October, 2025**  
 The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China's Real Estate Downturn  
-*Invited Lecture, Zhejiang University, Hangzhou, China*
+***Invited Lecture***, Zhejiang University, Hangzhou, China
 
 **October, 2025**  
 Rental Housing Regimes and Welfare States: Lessons from German-Speaking Countries  
-*Keynote Speaker, The 9th Joint Forum on Land Use Policy, Hangzhou, China; participant in the roundtable “Optimizing Urban–Rural Development Patterns and Land System Reform”*
+***Keynote Speaker***, The 9th Joint Forum on Land Use Policy, Hangzhou, China; participant in the roundtable “Optimizing Urban–Rural Development Patterns and Land System Reform”
 
 **July, 2025**   
 Navigating Overaccumulation: The Financialization of Social Rented Housing in China 
