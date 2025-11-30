@@ -25,11 +25,13 @@ author_profile: true
 
 ## Residential Mobility and Migration
 
+* **Li, B.,** Jansen, S. J., van der Heijden, H., Jin, C., & Boelhouwer, P. (2022). Unraveling the determinants for private renting in metropolitan China: An application of the Theory of Planned Behavior. *Habitat International*. [PDF](https://housingforall.github.io/files/hi_2022.pdf)
+
+* Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J(2025). What drives young talents’ home-buying intentions? Evidence from China’s first-tier cities. *Journal of Housing and the Built Environment*.
+
 * Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2025). Young Talents' Settlement Decisions in China's Metropolises: An Integrated Prospect Theory Framework. *Population, Space and Place*. [PDF](https://housingforall.github.io/files/psp_public_version.pdf)
   
 * Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2023). Understanding the Housing Pathways and Migration Plans of Young Talents in Metropolises--A Case Study of Shenzhen. *Housing, Theory and Society*. [PDF](https://housingforall.github.io/files/hts_2023.pdf)
-
-* **Li, B.,** Jansen, S. J., van der Heijden, H., Jin, C., & Boelhouwer, P. (2022). Unraveling the determinants for private renting in metropolitan China: An application of the Theory of Planned Behavior. *Habitat International*. [PDF](https://housingforall.github.io/files/hi_2022.pdf)
 
 * Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2022). What Attracts Young Talents? Understanding the Migration Intention of University Students to First-tier Cities in China. *Cities*. [PDF](https://housingforall.github.io/files/cities_2022.pdf)
 
@@ -47,9 +49,7 @@ author_profile: true
 
 ## Work In Progress
 
-* **Li, B.**  The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China's Real Estate Downturn. *Working Paper*. [PDF](https://housingforall.github.io/files/manustript_0930.pdf)
-  
-* Jin, C., **Li, B.\*,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J.  Beyond Economics: Unravelling the Psychological and Socio-Demographic Factors Shaping Home Purchase Intentions among Young Talents in China\'s First-Tier Cities. *Revise & Resubmit* at Journal of Housing and the Built Environment.
+* **Li, B.**  The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China's Real Estate Downturn. *Working Paper*. [PDF](https://housingforall.github.io/files/manustript_11_26.pdf)
   
 * Wen, J., **Li, B.\*,** Jansen, S. J., van der Heijden, H. & Boelhouwer, P.  Leaving Intention of Recent Migrants across Urban Hierarchies: The Role of Housing, Employment and Amenities. *Revise & Resubmit* at Cities.
 

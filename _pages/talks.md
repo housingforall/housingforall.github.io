@@ -7,6 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
+**November, 2025**  
+The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China's Real Estate Downturn. 
+*The 6th International Conference on Natural Resource Management and Public Policy, Wuhan, China (online)*
+
 **October, 2025**  
 The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China's Real Estate Downturn  
 ***Invited Lecture***, Zhejiang University, Hangzhou, China
