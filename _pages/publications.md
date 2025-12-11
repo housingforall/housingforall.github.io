@@ -17,7 +17,7 @@ author_profile: true
 
 * Kohl, S., **Li, B.,** & Cui, C. (2025). Housing Segregation in Chinese Major Cities: A K-Nearest Neighbor Analysis of Longitudinal Big Data. *Computers, Environment and Urban Systems*. [PDF](https://housingforall.github.io/files/ceus_2025.pdf)
   
-* **Li, B.,** Jansen, S. J., van der Heijden, H., Yan, J., & Boelhouwer, P. (2024). Promoting the Private Rented Sector in Metropolitan China: Key Challenges and Solutions. *International Journal of Housing Policy*. [PDF](https://housingforall.github.io/files/ijhp-2024.pdf)
+* **Li, B.,** Jansen, S. J., van der Heijden, H., Yan, J., & Boelhouwer, P. (2025). Promoting the Private Rented Sector in Metropolitan China: Key Challenges and Solutions. *International Journal of Housing Policy*. [PDF](https://housingforall.github.io/files/ijhp-2024.pdf)
 
 ## Built Environment and Well-being
 
