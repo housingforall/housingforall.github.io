@@ -29,7 +29,7 @@ author_profile: true
 
 * **Li, B.,** Jansen, S. J., van der Heijden, H., Jin, C., & Boelhouwer, P. (2022). Unraveling the determinants for private renting in metropolitan China: An application of the Theory of Planned Behavior. *Habitat International*. [PDF](https://housingforall.github.io/files/hi_2022.pdf)
 
-* Jin, C., **Li, B.,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J(2025). What drives young talents’ home-buying intentions? Evidence from China’s first-tier cities. *Journal of Housing and the Built Environment*.
+* Jin, C., **Li, B.,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J(2025). What drives young talents’ home-buying intentions? Evidence from China’s first-tier cities. *Journal of Housing and the Built Environment*.[PDF](https://housingforall.github.io/files/Jin HBE 2025.pdf)
 
 * Jin, C., **Li, B.,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2025). Young Talents' Settlement Decisions in China's Metropolises: An Integrated Prospect Theory Framework. *Population, Space and Place*. [PDF](https://housingforall.github.io/files/psp_public_version.pdf)
   
