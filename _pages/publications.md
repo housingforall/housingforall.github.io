@@ -11,7 +11,7 @@ author_profile: true
   
 * **Li, B.** (2023). The Realization of Class-Monopoly Rents: Landlords' Class Power and Its Impact on Tenants' Housing Experiences. *Journal of Urban Management*. [PDF](https://housingforall.github.io/files/jum_2023.pdf)
 
-* Qi, X., Chen, J., Lu, T., & ** Li, B.** (2025). The financialization and de-financialization of rental housing in China: how the state’s governance capacity affects financialization. *International Journal of Housing Policy*. [PDF](https://housingforall.github.io/files/qi etal., 2025 final.pdf)
+* Qi, X., Chen, J., Lu, T., **& Li, B.** (2025). The financialization and de-financialization of rental housing in China: how the state’s governance capacity affects financialization. *International Journal of Housing Policy*. [PDF](https://housingforall.github.io/files/qi etal., 2025 final.pdf)
 
 ## Housing Markets and Social Equity
 
