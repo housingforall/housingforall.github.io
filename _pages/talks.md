@@ -28,7 +28,7 @@ The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Re
 *Asian-Pacific Network for Housing Research (APNHR) conference, Beijing, China*
 
 **June, 2025**   
-***Best Paper Award for Junior Scholars***  
+***Best Paper Award***  
 The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China’s Real Estate Downturn  
 *Urban China Research Network (UCRN) conference, Chengdu, China*
 
