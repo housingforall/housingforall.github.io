@@ -51,7 +51,7 @@ author_profile: true
 
 ## Work In Progress
 
-* **Li, B.,** Kohl, S. The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China's Real Estate Downturn. *Working Paper*. [PDF](https://housingforall.github.io/files/manuscript_with_author_appendix.pdf)
+* **Li, B.,** Kohl, S. The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China's Real Estate Downturn. *Working Paper*. 
   
 * Wen, J., **Li, B.,** Jansen, S. J., van der Heijden, H. & Boelhouwer, P.  Leaving Intention of Recent Migrants across Urban Hierarchies: The Role of Housing, Employment and Amenities. *Revise & Resubmit* at Cities.
 
