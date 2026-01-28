@@ -9,11 +9,11 @@ author_profile: true
 
 **November, 2025**  
 The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China's Real Estate Downturn. 
-*The 6th International Conference on Natural Resource Management and Public Policy, Wuhan, China (online)*
+***Invited Talk***, The 6th International Conference on Natural Resource Management and Public Policy, Wuhan, China (online)
 
 **October, 2025**  
 The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China's Real Estate Downturn  
-***Invited Lecture***, Zhejiang University, Hangzhou, China
+***Invited Talk***, Zhejiang University, Hangzhou, China
 
 **October, 2025**  
 Rental Housing Regimes and Welfare States: Lessons from German-Speaking Countries  
@@ -50,7 +50,7 @@ How do the management practices of landlords influence renters' housing experien
 
 **June, 2022**  
 Improving residential satisfaction of private tenants in megacities: lessons for policy makers  
-*Invited lecture by the Taiwan Taoyuan Municipal Government's Residential Development Office, Online*
+*Invited Talk by the Taiwan Taoyuan Municipal Government's Residential Development Office, Online*
 
 **March, 2022**  
 Understanding the management practices of private landlords in China  

@@ -7,7 +7,7 @@ author_profile: true
 
 ## Housing Financialization
 
-* **Li, B.,** Aalbers, M., Kohl, S., & Chen, J. (2025). Navigating Overaccumulation: The Financialization of Social Rented Housing in China. *Environment and Planning A: Economy and Space*. [PDF](https://housingforall.github.io/files/epa-public-version.pdf)
+* **Li, B.,** Aalbers, M., Kohl, S., & Chen, J. (2025). Managing overaccumulation: China’s new affordable rental housing programme and its financialization through REITs. *Environment and Planning A: Economy and Space*. [PDF](https://housingforall.github.io/files/epa-public-version.pdf)
   
 * **Li, B.** (2023). The Realization of Class-Monopoly Rents: Landlords' Class Power and Its Impact on Tenants' Housing Experiences. *Journal of Urban Management*. [PDF](https://housingforall.github.io/files/jum_2023.pdf)
 
