@@ -27,9 +27,9 @@ author_profile: true
 
 ## Residential Mobility and Migration
 
-* **Li, B.,** Jansen, S. J., van der Heijden, H., Jin, C., & Boelhouwer, P. (2022). Unraveling the determinants for private renting in metropolitan China: An application of the Theory of Planned Behavior. *Habitat International*. [PDF](https://housingforall.github.io/files/hi_2022.pdf)
+* Wen, J., **Li, B.,** Jansen, S. J., van der Heijden, H. & Boelhouwer, P. (2026). Secondary cities as an optimal place to settle down in China? The role of housing, employment and amenities in recent migrants' leaving intention across the urban hierarchy. *Cities*.[PDF](https://housingforall.github.io/files/wen_cities_2026.pdf)
 
-* Jin, C., **Li, B.,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J(2025). What drives young talents’ home-buying intentions? Evidence from China’s first-tier cities. *Journal of Housing and the Built Environment*.[PDF](https://housingforall.github.io/files/Jin HBE 2025.pdf)
+* Jin, C., **Li, B.,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2025). What drives young talents’ home-buying intentions? Evidence from China’s first-tier cities. *Journal of Housing and the Built Environment*.[PDF](https://housingforall.github.io/files/Jin HBE 2025.pdf)
 
 * Jin, C., **Li, B.,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2025). Young Talents' Settlement Decisions in China's Metropolises: An Integrated Prospect Theory Framework. *Population, Space and Place*. [PDF](https://housingforall.github.io/files/psp_public_version.pdf)
   
@@ -37,12 +37,16 @@ author_profile: true
 
 * Jin, C., **Li, B.,** Jansen, S. J., Boumeester, H. J., & Boelhouwer, P. J. (2022). What Attracts Young Talents? Understanding the Migration Intention of University Students to First-tier Cities in China. *Cities*. [PDF](https://housingforall.github.io/files/cities_2022.pdf)
 
+* **Li, B.,** Jansen, S. J., van der Heijden, H., Jin, C., & Boelhouwer, P. (2022). Unraveling the determinants for private renting in metropolitan China: An application of the Theory of Planned Behavior. *Habitat International*. [PDF](https://housingforall.github.io/files/hi_2022.pdf)
+
 ## Sustainable Built Environment 
+
 * Liu, Z., Qian, Q., **Li, B.,** Jin, C. & Visscher, H. (2025). Dutch Householders\' Intentions to Adopt Shallow Geothermal Systems for Energy Transition of Existing Buildings: A Theory of Planned Behavior Approach. *Energy & Buildings*.[PDF](https://housingforall.github.io/files/eb_2025.pdf) 
 
 * **Li, B.,** Xiang, P., Hu, M., Zhang, C., & Dong, L. (2017). The vulnerability of industrial symbiosis: A case study of Qijiang Industrial Park, China. *Journal of Cleaner Production*. [PDF](https://housingforall.github.io/files/jcp_2017.pdf)
   
 ## Book Review
+
 * **Li, B.** (2023). (Ben Ansell) Why Politics Fails: The Five Traps of the Modern World & How to Escape Them. *Economic Sociology: Perspectives and Conversations* [PDF](https://housingforall.github.io/files/book_review_ansell.pdf)
 
 ## Public Outreach
@@ -51,9 +55,8 @@ author_profile: true
 
 ## Work In Progress
 
-* **Li, B.,** Kohl, S. The Fiscal-Property Nexus: How Local Government Finance Shapes Housing Market Resilience During China's Real Estate Downturn. *Working Paper*. 
+* **Li, B.,** Kohl, S. The Fiscal-Property Nexus: Local Government Debt and Housing Market Resilience in China's Real Estate Downturn. *Working Paper*. 
   
-* Wen, J., **Li, B.,** Jansen, S. J., van der Heijden, H. & Boelhouwer, P.  Leaving Intention of Recent Migrants across Urban Hierarchies: The Role of Housing, Employment and Amenities. *Revise & Resubmit* at Cities.
 
   
 
