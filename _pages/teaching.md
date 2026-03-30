@@ -17,5 +17,3 @@ This seminar examines American cities over the past 150 years through major theo
 ### Introduction to Comparative-historical Housing Sociology (2024)  
 *Assistant  Lecturer, Free University of Berlin, JFK Institute*  
 
-### Professor Lecture Series Summer School (2022)  
-*Teaching Assistant, Delft University of Technology, Faculty of Architecture and the Built Environment*  
