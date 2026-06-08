@@ -6,10 +6,11 @@ author_profile: true
 ---
 
 Bo Li<br>
-Free University Berlin<br>
-John-F.-Kennedy Institute<br>
-Department of Sociology<br>
-Lansstr. 7-9, 14195 Berlin
+Eindhoven University of Technology<br>
+Department of the Built Environment<br>
+Real Estate and Urban Development<br>
+Vertigo, Room 8.31<br>
+PO Box 513, 5600 MB Eindhoven, the Netherlands
 
 To get in touch, please fill out the contact form below.
 

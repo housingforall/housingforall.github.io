@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Bo Li"
-description              : &description "Urban Geographer focusing on rental housing markets and housing financialization."
+description              : &description "Assistant Professor in Real Estate and Urban Development at Eindhoven University of Technology (TU/e), working on housing, real estate, and financialization."
 url                      : "https://housingforall.github.io" # 请替换为你的实际GitHub用户名
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "housingforall/housingforall.github.io" # 请替换为你的实际GitHub用户名
@@ -25,10 +25,10 @@ author:
   avatar           : "github_portfolio.jpg"
   name             : "Bo Li"
   pronouns         : # example: "she/her"  
-  bio              : "Urban Geographer Specialized in Housing Rental Markets and Financialization"
-  location         : "Berlin, Germany"
-  employer         : "Free University of Berlin"
-  uri              : https://www.jfki.fu-berlin.de/en/faculty/sociology/persons/Li_Bo/index.html
+  bio              : "Assistant Professor, Real Estate & Urban Development, TU/e"
+  location         : "Eindhoven, the Netherlands"
+  employer         : "Eindhoven University of Technology"
+  uri              : https://research.tue.nl/en/persons/bo-li
   uri_label        : "Institution Website"  # 尝试添加这一行
 
   
@@ -38,7 +38,7 @@ author:
   arxiv            : # URL
   googlescholar    : https://scholar.google.com/citations?user=KBq6uBoAAAAJ&hl=en
   impactstory      : # URL
-  orcid            : # 请添加你的ORCID链接，如有
+  orcid            : https://orcid.org/0000-0002-7181-7662
   semantic         : # URL
   pubmed           : # 
   researchgate     : https://www.researchgate.net/profile/Bo-Li-110?ev=hdr_xprf
