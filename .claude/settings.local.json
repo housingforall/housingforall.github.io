@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Out-Null *)",
+      "WebSearch",
+      "WebFetch(domain:research.tue.nl)",
+      "PowerShell(git *)",
+      "PowerShell($paths = @\\(\"C:\\\\Program Files\\\\Git\\\\cmd\\\\git.exe\",\"C:\\\\Program Files\\\\Git\\\\bin\\\\git.exe\",\"C:\\\\Program Files \\(x86\\)\\\\Git\\\\cmd\\\\git.exe\",\"$env:LOCALAPPDATA\\\\Programs\\\\Git\\\\cmd\\\\git.exe\"\\); foreach \\($p in $paths\\) { if \\(Test-Path $p\\) { Write-Output \"FOUND: $p\" } }; $cmd = Get-Command git.exe -ErrorAction SilentlyContinue; if \\($cmd\\) { Write-Output \\(\"CMD: \" + $cmd.Source\\) })",
+      "PowerShell($git = \"C:\\\\Users\\\\20260898\\\\AppData\\\\Local\\\\GitHubDesktop\\\\app-3.5.12\\\\resources\\\\app\\\\git\\\\cmd\\\\git.exe\"; & $git status --short; Write-Output \"----DIFFSTAT----\"; & $git diff --stat)",
+      "PowerShell($git = \"C:\\\\Users\\\\20260898\\\\AppData\\\\Local\\\\GitHubDesktop\\\\app-3.5.12\\\\resources\\\\app\\\\git\\\\cmd\\\\git.exe\"; Write-Output \"==== last commit ====\"; & $git log -1 --stat --oneline; Write-Output \"==== working tree status ====\"; & $git status --short; Write-Output \"==== are the 3 files tracked? ====\"; & $git ls-files _config.yml _pages/contact.md _pages/teaching.md; Write-Output \"==== ignored? ====\"; & $git check-ignore _config.yml _pages/contact.md _pages/teaching.md)",
+      "PowerShell($git = \"C:\\\\Users\\\\20260898\\\\AppData\\\\Local\\\\GitHubDesktop\\\\app-3.5.12\\\\resources\\\\app\\\\git\\\\cmd\\\\git.exe\"; Write-Output \\(\"PWD: \" + \\(Get-Location\\).Path\\); Write-Output \\(\"TOPLEVEL: \" + \\(& $git rev-parse --show-toplevel\\)\\); Write-Output \\(\"GITDIR: \" + \\(& $git rev-parse --absolute-git-dir\\)\\); Write-Output \"==== on-disk about.md head \\(first 16 lines\\) ====\"; Get-Content \"_pages\\\\about.md\" -TotalCount 16)",
+      "PowerShell($git = \"C:\\\\Users\\\\20260898\\\\AppData\\\\Local\\\\GitHubDesktop\\\\app-3.5.12\\\\resources\\\\app\\\\git\\\\cmd\\\\git.exe\"; & $git log --oneline --stat -6)"
+    ]
+  }
+}

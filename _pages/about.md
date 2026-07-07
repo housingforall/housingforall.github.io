@@ -10,12 +10,10 @@ redirect_from:
 
 Welcome to my academic homepage.
 
-I am an Assistant Professor in the [Real Estate and Urban Development](https://www.tue.nl/en/research/research-groups/design-and-decision-support-systems/real-estate-and-urban-development) group at [Eindhoven University of Technology (TU/e)](https://www.tue.nl/en/). As an urban geographer and planner, I work on housing, real estate, and financialization.
+I am an Assistant Professor in the [Real Estate and Urban Development](https://www.tue.nl/en/research/research-groups/design-and-decision-support-systems/real-estate-and-urban-development) group at Eindhoven University of Technology (TU/e). As an urban geographer and planner, I study housing as both a political-economic system and a lived experience, with cases in China and Europe.
 
-My research examines how real estate stakeholders make decisions. Developers, investors, managers, and residents each assess sustainability, health, and smart technologies when they plan and invest. I model these decisions and build tools to support them. The aim is to weigh financial, environmental, and social criteria together in investment, development, and portfolio management.
+My research asks how housing markets financialize and how affordability crises build up, and on the other side, how households decide where and how to live. A recurring aim is to connect the structural forces driving housing markets with the choices households make within them. To support this, I am developing cross-country data infrastructure on housing listings and transactions in China and Europe, combined with choice experiments, surveys, and qualitative and institutional analysis. My work is quantitative in method and critical in orientation.
 
-My work spans scales, from the well-being and residential mobility of individual tenants to institutional investment and urban inequality. I combine behavioural modelling, large-scale urban data, and historical comparison across cases in China and Europe.
+Before joining TU/e, I was an NWO Rubicon Fellow at the John F. Kennedy Institute, Freie Universität Berlin. I received my PhD in Urban Studies from Delft University of Technology, and was awarded a Marie Skłodowska-Curie Fellowship.
 
-Before joining TU/e, I was a Rubicon Fellow (Dutch Research Council) at the [John F. Kennedy Institute](https://www.jfki.fu-berlin.de/en/index.html), Free University of Berlin. I received my Ph.D. in Urban Studies from Delft University of Technology.
-
-I am an Associate Editor of the *Journal of Urban Management* and *Humanities & Social Sciences Communications*.
+I am an Associate Editor of *Journal of Urban Management* and *Humanities & Social Sciences Communications*, and a board member of [Research Committee on Housing and Built Environment (RC43) of the International Sociological Association](https://www.isa-sociology.org/en/research-networks/research-committees/rc43-housing-and-built-environment/).
