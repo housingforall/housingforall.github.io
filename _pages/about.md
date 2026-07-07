@@ -16,4 +16,4 @@ My research asks how housing markets financialize and how affordability crises b
 
 Before joining TU/e, I was an NWO Rubicon Fellow at the John F. Kennedy Institute, Freie Universität Berlin. I received my PhD in Urban Studies from Delft University of Technology, and was awarded a Marie Skłodowska-Curie Fellowship.
 
-I am an Associate Editor of *Journal of Urban Management* and *Humanities & Social Sciences Communications*, and a board member of [Research Committee on Housing and Built Environment (RC43) of the International Sociological Association](https://www.isa-sociology.org/en/research-networks/research-committees/rc43-housing-and-built-environment/).
+I am an Associate Editor of *Journal of Urban Management* and *Humanities & Social Sciences Communications*, and a board member of [Research Committee on Housing and Built Environment (RC43)](https://www.isa-sociology.org/en/research-networks/research-committees/rc43-housing-and-built-environment/) of the International Sociological Association.
