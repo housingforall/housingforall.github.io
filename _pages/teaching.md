@@ -27,7 +27,7 @@ Compulsory bachelor course, 5 EC, on how the design and management of the built 
 ## Freie Universität Berlin
 
 ### Introduction to Urban Sociology, 2025/26
-*Lecturer, John F. Kennedy Institute*
+*Co-lecturer, John F. Kennedy Institute*
 
 Cities are fundamental sites of modern social life, concentrating both opportunity and inequality, innovation and conflict. Understanding cities requires examining how markets, states, and social movements shape urban space, and how race, class, gender, and immigration intersect in the urban context.
 
